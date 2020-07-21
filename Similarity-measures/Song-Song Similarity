@@ -6,8 +6,8 @@ Both 'Title' and 'Released by' are the in sentences format in english and latin 
 So the similarity will be based on 'Artist' and the 'Year'.
 
 Decreasing order of similarity weightage for two songs
-  :: Two songs having same 'Artist' name and same 'Year'
-  :: Two songs having same 'Artist' name and 'Year' within +5/-5 range (Less the difference , more the Weightage)
-  :: Two songs having different 'Artist' but same 'Year' 
+  :: Two songs having same 'Artist' and 'year'
+  :: Two songs having different 'Artist' but same 'Year'
+  :: Two songs having same 'Artist' name and 'Year' within +5/-5 range (Less the difference , more the Weightage) 
   :: Two songs having different 'Artist' and 'Year' within +5/-5 range
   :: Two songs having different 'Artist' and 'Year' out of +5/-5
