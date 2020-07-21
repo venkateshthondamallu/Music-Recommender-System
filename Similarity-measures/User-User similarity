@@ -1,0 +1,11 @@
+What DATA we have:
+  Triplet-file : (User-id , Song-id ,Count )
+  
+The similarity will be based on the listening history of the users extracted from this file.
+
+We first make the list of listened songs of every user.
+
+For a user-user
+  :: More the common songs , more the similarity
+  :: For the un-common songs, using song-song similarity measure and scaling it to user-user similarity.
+ 
