@@ -1,0 +1,13 @@
+What DATA we have: 
+  Song meta data : (Song-id , Title , Released by , Artist ,Year )
+ 
+Both 'Title' and 'Released by' are the in sentences format in english and latin words. So similarity based on these features require Text Analysis.
+
+So the similarity will be based on 'Artist' and the 'Year'.
+
+Decreasing order of similarity weightage for two songs
+  :: Two songs having same 'Artist' name and same 'Year'
+  :: Two songs having same 'Artist' name and 'Year' within +5/-5 range (Less the difference , more the Weightage)
+  :: Two songs having different 'Artist' but same 'Year' 
+  :: Two songs having different 'Artist' and 'Year' within +5/-5 range
+  :: Two songs having different 'Artist' and 'Year' out of +5/-5
